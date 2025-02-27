@@ -5,9 +5,65 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  background-color: #fafaf8;
 }
 
-/**
-header box shadow code:
-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
-*/
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  height: 80px;
+  background-color: white;
+  box-shadow: 
+    0px 1px 3px 0px rgba(0, 0, 0, 0.10), 
+    0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  
+}
+
+header > img {
+  width: 40px;
+}
+
+header > h1 {
+  font-weight: 400;
+}
+
+main{
+  padding: 30px 30px 10px;
+
+}
+
+.add-ingrediant-form{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  height: 38px;
+}
+
+.add-ingrediant-form > input{
+  border-radius: 6px;
+  border: 1px solid #D1d5db;
+  padding: 9px 13px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+}
+
+.add-ingrediant-form > button {
+  font-family: Inter, sans-serif;
+  border-radius: 6px;
+  border: none;
+  background-color: black;
+  color: #FAFAF8;
+  width: 150px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.add-ingrediant-form > button::before {
+  content: "+";
+  margin-right: 5px;
+}
