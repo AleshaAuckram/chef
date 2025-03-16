@@ -1,8 +1,18 @@
-# React + Vite
+# Chef
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is a website that you can find a recipe if you ever dont know what to make. By adding a few ingrediants into the text box it can load a whole recipe using an API
 
-Currently, two official plugins are available:
+## Technologies Used
+- React
+- Javascript
+- CSS/HTML
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run Locally
+1. Clone the repository: `git clone https://github.com/yourusername/repository-name.git`
+2. Navigate to the project directory: `cd chef-claude`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+
+
+## GitHub Repo
+[Link to the GitHub repository]
