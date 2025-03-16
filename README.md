@@ -8,11 +8,11 @@ It is a website that you can find a recipe if you ever dont know what to make. B
 - CSS/HTML
 
 ## How to Run Locally
-1. Clone the repository: `git clone https://github.com/yourusername/repository-name.git`
+1. Clone the repository: `git clone (https://github.com/AleshaAuckram/chef.git)`
 2. Navigate to the project directory: `cd chef-claude`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
 
 ## GitHub Repo
-[Link to the GitHub repository]
+(https://github.com/AleshaAuckram/chef.git)
