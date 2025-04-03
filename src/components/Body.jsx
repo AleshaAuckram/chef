@@ -6,9 +6,16 @@ import { getRecipeFromMistral } from '../ai';
 export default function Body() {
     
 
-    const [ingrediants, setIngrediants] = React.useState([])
+    const [ingrediants, setIngrediants] = React.useState(["Chicken", "Rice", "Broccoli"])
     
     const [recipe, setRecipe] = React.useState("")
+    const recipeSection = React.useRef(null)
+
+    React.useEffect(() => {
+        if (recipe !== "" && recipeSection.current !== null) {
+            recipeSection.current.scrollIntoView({behavior: "smooth"})
+        } 
+        }, [recipe])
 
 
     async function getRecipe() {
@@ -36,6 +43,7 @@ export default function Body() {
 
             {ingrediants.length > 0 && 
             <IngrediantsList 
+            ref={recipeSection}
             ingrediants={ingrediants} 
             getRecipe={getRecipe}/>}
                 
